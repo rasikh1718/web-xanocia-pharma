@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6a1ab7c49b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <script src="index.js"></script>
+
+    <title>contact</title>
+</head>
+<body>
+    <!-- ---------header-------- -->
+    <section class="header">
+        <nav>
+            <br>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+        
+            <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>  
+              <ul>
+                 <li><a href="index.html">HOME</a></li>
+                 <li><a href="about.html">ABOUT</a></li>
+                 <li><a href="product.html">PRODUCT</a></li>
+                 <li><a href="blog.html">BLOG</a></li>
+                 <li><a href="contact.html">CONTACT</a></li>
+              </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1> Contact us<br>
+            xanocia Lifesciences where trust Meet care </h1>
+        
+    </section>
+<!-- --------------header---------------- -->
+<!-- -------------contact us------------- -->
+<section class="location">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119270.4305416516!2d77.69170495956777!3d20.90423329901529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd6a4a67774bc15%3A0x3c7b3f78ca4f9635!2sAmravati%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1656296959069!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <i class="fa fa-home"></i>
+            <span>NH6 ROAD MIDC BUILDING S24 -Amravati, Maharashtra, IN</span>
+            
+        </div>
+        <div class="contact-col">
+            <i class="fa fa-phone"></i>
+            <span>+91 0123456789-Monday to Suterday 10AM to 6PM</span>
+            
+        </div>
+        <div class="contact-col">
+            <i class="fa fa-envelope-o"></i>
+            <span>info@xanocialifescience.com<br> Email us your query</span>
+           
+        </div>
+        <div class="contact-col">
+            <form action="form.php" method="post">
+                <input type="text" name="Name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter email address" required>
+                <input type="text" name="product" placeholder="Enter Your product categories" required>
+                <textarea name="message" id="" cols="30" rows="8" placeholder="Message" required></textarea>
+                <button type="submit" class="btn btn-success">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- ---------foooter------------------ -->
+<section class="footer">
+    <h4>About us</h4>
+    <p>With a vision to sustain in the competitive market, Xanocia Lifesciences [Chandigarh] established in 2012;
+        have <br>established themselves as a reputed manufacturer and trader of Pharmaceutical Medicine. </p>
+        <div class="icons">
+            <p></p>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-instagram"></i>
+            <p>Made with <i class="fa fa-heart-o"></i> by Xanocia Lifscience</p>
+        
+        </div>
+</section>
+
+<!-- ------javascript for toggle menu------ -->
+<!-- <script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script> -->
+</body>
+</html>

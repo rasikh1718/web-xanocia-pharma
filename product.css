@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.third-header{
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(137, 109, 109, 0.7),rgba(4,9,30,0.7)),url(images/ethical.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.container{
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(137, 109, 109, 0.7),rgba(4,9,30,0.7)),url(images/banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.container ul li{
+    padding: 12Px;
+    color:azure;
+}
+.display-5{
+    text-align: center;
+    color: azure;
+}
+.container hr{
+    border: 3px solid white;
+    color:azure;
+}
+.header h1{
+       margin-top: 20px;
+}
+.a{
+    padding: 4px;
+    margin: 4px;
+}
